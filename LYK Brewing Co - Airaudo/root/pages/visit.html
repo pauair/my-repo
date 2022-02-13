@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LYK Brewing Co. - Visita</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="../css/style.css">
+        <!-- FAVICON -->
+        <link rel="favicon" type="image/png" href="../assets/images/logo-img.png" sizes="16x16">
+    </head>
+
+    <body>
+        <header class="header-pages">
+            <a href="../index.html">
+                <img class="logo-img" src="../assets/images/logo-img.png" alt="logo LYK">
+            </a>
+            <div class="header">
+                <h1 class="h1-pages" id="h1-visit">Visítanos</h1>
+                <!--Menú de navegación-->
+                <nav>
+                    <ul class="menu-nav">
+                        <li class="menu-flex"> <img class="menu-img" src="../assets/images/menu-img.png" alt="img-menu">
+                            <ul>
+                                <li> 
+                                    <a class="menu-item" href="aboutus.html">Nuestra historia</a> 
+                                </li>
+                                <li> 
+                                    <a class="menu-item" href="products.html">Productos</a> 
+                                </li>
+                                <li> 
+                                    <a class="menu-item" href="visit.html">Visítanos</a> 
+                                </li>
+                                <li> 
+                                    <a class="menu-item" href="contact.html">Contacto</a> 
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--Sección de imagenes e indicaciones-->
+        <h3> 
+            ¿Te gustaría conocer nuestra fábrica? 
+        </h3>
+        <div class="info-visit">
+            <p> 
+                Dejanos tus datos y nos contactaremos contigo para brindarte mayor información
+            </p>
+            <p> 
+                Las visitas se realizan viernes y sábados, de 10 a 17hs.
+            </p>
+            <p>
+                Montevideo, Uruguay.
+            </p>
+        </div>
+        <section class="section-visit">
+            <div class="company-img">
+                <img src="../assets/images/brewery3.jpg" alt="Galería de fotos">
+            </div>
+            <!--Formulario de visita-->
+            <form id="form-visit" class="forms" action="#">
+                <fieldset class="fieldset-visit">
+                    <legend>
+                        Completa tus datos
+                    </legend>
+                    <label for="user"> 
+                        Nombre completo 
+                    </label>
+                    <input type="text" placeholder="Ingresa tu nombre y apellido" id="user_visit"> 
+                    <label for="mail"> 
+                        Correo electrónico
+                    </label>
+                    <input type="email" placeholder="Ingresa tu e-mail" id="mail_visit">
+                    <label for="phone_visit">
+                        Teléfono
+                    </label>
+                    <input type="text" placeholder="Ingresa tu número de teléfono" id="phone_visit">
+                    <label for="number_visit">
+                        Número de visitantes
+                    </label>
+                    <select id="number_visit">
+                        <option disabled selected="">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <label for="date">
+                        Fecha de visita
+                    </label>
+                    <input type="date" id="date">
+                    <div class="div-send-clean">
+                        <input type="submit" value="Coordinar">
+                        <input type="submit" value="Borrar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <!--Redes sociales-->
+        <footer class="footer-redes">
+            <ul class="footer-ul-redes">
+                <li> 
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img class="footer-img" src="../assets/images/instagram-img.png" alt="Instagram">
+                    </a> 
+                </li>
+                <li> 
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img class="footer-img" src="../assets/images/facebook-img.png" alt="Facebook">
+                    </a> 
+                </li>
+                <li> 
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img class="footer-img" src="../assets/images/youtube-img.png" alt="Youtube">
+                    </a> 
+                </li>
+            </ul>
+            <p> &copy Copyright 2022. Todos los derechos reservados | Paula Airaudo </p>
+        </footer>
+    </body>
+
+</html>
