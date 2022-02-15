@@ -21,7 +21,6 @@
     height: 10vw;
 }
 
-
 .header {
     padding: 3vw;
     align-items: center;
@@ -30,6 +29,12 @@
 .h1-principal {
     font-weight: 700;
     font-size: 5vw;
+}
+
+.h1-pages {
+    font-weight: 400;
+    font-size: 4vw;
+    text-transform: uppercase;
 }
 
 .menu-img {
@@ -42,6 +47,11 @@
     background-color: black !important;
 }
 
+.offcanvas-body {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
 .navbar-dark .navbar-toggler {
     border-color: black;
 }
@@ -51,69 +61,54 @@
 }
 
 .navbar-toggler:hover {
-        opacity: 0.6 ;
-}
-/*
-
-.h1-pages {
-    font-weight: 400;
-    font-size: 5vw;
-    justify-self: center;
-    text-transform: uppercase;
-    grid-column-start: 2;
-}
-
-a:link, a:visited, a:active{
-    text-decoration: none;
-}
-
-.menu-img {
-    z-index: 3;
-    width: 6vw;
-    height: 6vw;
-    margin-left: 13vw;
-}
-
-.menu-img:hover {
     opacity: 0.6 ;
 }
 
-.menu-nav {
-    list-style: none;
-    text-align: right;
+.nav-item a {
+    font-size: 2.5vw;
 }
 
-.menu-flex ul {
-    display: none;
-}
-
-.menu-flex:hover ul {
-    z-index: 5;
-    display: block;
-    position: absolute;
-    border-radius: 1vw;
-    list-style: none;
-    font-size: 1.8vw;
-    text-transform: uppercase;
-    height: 10vw;
-}
-
-.menu-item {
-    margin: 1vw;
-    text-indent: 0.7vw;
+.nav-item:hover {
+    opacity: 0.6;
+    transform: scale(1.1);
 }
 
 .img-principal {
     opacity: 0.35;
-    width: 100vw;
-    height: 100vw;
 }
 
-h3 {
-    font-size: 2vw;
-    text-align: center;
-    font-weight: 700;
-    font-style: italic;
+.img-aboutus {
+    width: 20rem;
+    height: 20rem;
+}
+
+.footer-redes {
+    padding: 2vw;
+}
+
+.footer-ul-redes { 
+    list-style: none;
+}
+
+.footer-img {
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 0.5vw;
+}
+
+.footer-img:hover {
+    transform: scale(1.5);
+}
+
+.footer-redes p {
+    justify-self: center;
+    font-size: 1vw;
+}
+
+
+/*
+a:link, a:visited, a:active{
+    text-decoration: none;
 }
 
 .section-visit {
@@ -324,45 +319,4 @@ h3 {
     padding-inline: 1vw;
     margin-inline: 0.5vw;
 }
-
-.footer-redes {
-    display: grid;
-    
-    grid-template-columns: repeat(5, 2fr);
-    grid-template-rows: 1fr 1fr;
-    align-items: center;
-    grid-gap: 1vw;
-}
-
-.footer-ul-redes {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    grid-row: 1;
-    grid-column: 3;
-}
-
 */
-
-.footer-redes {
-    padding: 2vw;
-}
-
-.footer-ul-redes { 
-    list-style: none;
-}
-
-.footer-img {
-    width: 2.5vw;
-    height: 2.5vw;
-    border-radius: 0.5vw;
-}
-
-.footer-img:hover {
-    transform: scale(1.5);
-}
-
-.footer-redes p {
-    justify-self: center;
-    font-size: 1vw;
-}
