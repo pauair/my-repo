@@ -20,9 +20,9 @@
         <a href="../index.html" class="col-2">
             <img class="logo-img" src="../assets/images/logo-img.png" alt="logo LYK">
         </a>
-        <h1 class="h1-pages col-9 text-wrap text-center">Contactanos</h1>
+        <h1 class="h1-pages col-8 text-wrap text-center">Contactanos</h1>
         <!--Menú de navegación-->
-        <nav class="navbar navbar-dark bg-dark col-1">
+        <nav class="navbar navbar-dark bg-dark col-2">
             <div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -36,22 +36,22 @@
                         <ul class="navbar-nav justify-content-end flex-grow-2 pe-3">
                             <li class="nav-item">
                                 <a class="nav-link active h3" aria-current="page" href="aboutus.html">
-                                    ABOUT US
+                                    HISTORIA
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active h3" aria-current="page" href="products.html">
-                                    PRODUCTS
+                                    PRODUCTOS
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active h3" aria-current="page" href="visit.html">
-                                    VISIT US
+                                    VISITA
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active h3" aria-current="page" href="contact.html">
-                                    CONTACT US
+                                    CONTACTO
                                 </a>
                             </li>
                         </ul>
@@ -60,62 +60,73 @@
             </div>
         </nav>
     </header>
-    <!--Sección de imagenes-->
-    <h3>
-        Si tienes alguna consulta o sugerencia, no dudes en contactarnos.
-    </h3>
-    <section class="section-contact">
-        <div>
+    <!--Imagenes e información-->
+    <span class="row">
+        <h6 class="text-center h6">
+            Si tienes alguna consulta o sugerencia, no dudes en contactarnos.
+        </h6>
+    </span>
+    <section class="row p-5 justify-content-center section-contact">
+        <div class="col-xl-6">
             <img src="" alt="imagen1">
             <img src="" alt="imagen1">
         </div>
         <!--Formulario-->
-        <form class="forms" action="#">
-            <fieldset class="fieldset-contact">
-                <label for="user">
-                    Nombre completo
-                </label>
-                <input type="text" placeholder="Ingresa tu nombre y apellido" id="user">
-                <label for="mail">
-                    Correo electrónico
-                </label>
-                <input type="email" placeholder="Ingresa tu e-mail" id="mail">
-                <label for="comments">
-                    Comentarios
-                </label>
-                <textarea id="comments" cols="30" rows="5" placeholder="Escribe aquí tu mensaje"></textarea>
-                <div class="div-send-clean">
-                    <input type="submit" value="Enviar">
-                    <input type="submit" value="Borrar">
-                </div>
-            </fieldset>
+        <form class="row g-3 col-lg-6" action="#">
+            <div class="col-md-6">
+                <label for="inputName" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="inputName" placeholder="Escribe tu nombre">
+            </div>
+            <div class="col-md-6">
+                <label for="inputSurname" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="inputSurname" placeholder="Escribe tu apellido">
+            </div>
+            <div class="col-md-12">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Ingresa tu correo electrónico">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPhone" class="form-label">Teléfono</label>
+                <input type="text" class="form-control" id="inputPhone" placeholder="Tu número de contacto">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">País</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="Tu país de residencia">
+            </div>
+            <div class="col-md-6">
+                <label for="inputMessage" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="inputMessage" rows="3" placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-secondary">Enviar</button>
+            </div>
         </form>
-    </section>
-    <!--Redes Sociales-->
-    <footer class="row footer-redes">
-        <ul class="row justify-content-center footer-ul-redes">
-            <li class="col-1">
-                <a class="justify-content-center" href="https://www.instagram.com" target="_blank">
-                    <img class="footer-img" src="../assets/images/instagram-img.png" alt="Instagram">
-                </a>
-            </li>
-            <li class="col-1">
-                <a href="https://www.facebook.com" target="_blank">
-                    <img class="footer-img" src="../assets/images/facebook-img.png" alt="Facebook">
-                </a>
-            </li>
-            <li class="col-1">
-                <a href="https://www.youtube.com" target="_blank">
-                    <img class="footer-img" src="../assets/images/youtube-img.png" alt="Youtube">
-                </a>
-            </li>
-        </ul>
-        <p class="row justify-content-center"> &copy Copyright 2022. Todos los derechos reservados | Paula Airaudo </p>
-    </footer>
-    <!--JS Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        <!--Redes Sociales-->
+        <footer class="row footer-redes">
+            <ul class="row justify-content-center footer-ul-redes">
+                <li class="col-1">
+                    <a class="justify-content-center" href="https://www.instagram.com" target="_blank">
+                        <img class="footer-img" src="../assets/images/instagram-img.png" alt="Instagram">
+                    </a>
+                </li>
+                <li class="col-1">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img class="footer-img" src="../assets/images/facebook-img.png" alt="Facebook">
+                    </a>
+                </li>
+                <li class="col-1">
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img class="footer-img" src="../assets/images/youtube-img.png" alt="Youtube">
+                    </a>
+                </li>
+            </ul>
+            <p class="row justify-content-center"> &copy Copyright 2022. Todos los derechos reservados | Paula Airaudo
+            </p>
+        </footer>
+        <!--JS Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -6,7 +6,7 @@
 }
 
 *{
-    background-color: black;
+    background-color: black !important;
 }
 
 *{
@@ -32,8 +32,8 @@
 }
 
 .h1-pages {
-    font-weight: 400;
-    font-size: 4vw;
+    font-weight: 700;
+    font-size: 5vw;
     text-transform: uppercase;
 }
 
@@ -52,6 +52,11 @@
     padding-top: 2rem;
 }
 
+.btn-close {
+    margin-bottom: 10%;
+    margin-left: 80%;
+}
+
 .navbar-dark .navbar-toggler {
     border-color: black;
 }
@@ -65,7 +70,8 @@
 }
 
 .nav-item a {
-    font-size: 2.5vw;
+    font-size: 2.2vw;
+    font-weight: 700;
 }
 
 .nav-item:hover {
@@ -82,8 +88,41 @@
     height: 20rem;
 }
 
+.info-visit {
+    padding-top: 3vw;
+    justify-content: end;
+}
+
+.info-visit p {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.section-visit img {
+    width: 40vw;
+    height: 20vw;
+}
+
+.img-product {
+    width: 9rem;
+    height: 15rem;
+}
+
+.card {
+    background-color: black;
+}
+
+.section-products {
+    background-color: black;
+}
+
+.form-control {
+    color: white;
+}
+
 .footer-redes {
-    padding: 2vw;
+    padding: 4vw;
 }
 
 .footer-ul-redes { 
@@ -102,221 +141,39 @@
 
 .footer-redes p {
     justify-self: center;
-    font-size: 1vw;
-}
-
-
-/*
-a:link, a:visited, a:active{
-    text-decoration: none;
-}
-
-.section-visit {
-    display: grid;
-    grid-gap: 2vw;
-    padding: 3vw;
-    justify-items: center;
 }
 
 @media screen and (min-width: 320px) {
-    
-    .header {
-        margin-top: 3vw;
-        margin-bottom: 3vw;
+
+    .h1-pages {
+        font-size: 8vw;
     }
 
-    .logo-img {
-        width: 15vw;
-        height: 15vw;
+    .info-visit p {
+        font-size: 2vw;
     }
 
-    .menu-img {
-        width: 10vw;
-        height: 10vw;
-    }
-
-    .section-visit, 
-    .section-contact, 
-    .section-aboutus {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        justify-content: stretch;
-        padding: 10vw;
-        grid-gap: 8vw;
-    }
-
-    .section-visit img {
-        width: 80vw;
-        height: 50vw;
-    }
-
-    .section-contact img {
-        width: 35vw;
-        height: 20vw;
-        margin: 3vw;
-    }
-
-    .section-aboutus div {
-        width: 80vw;
-        height: 50vw;
-    }
-
-    .forms {
-        grid-row: 2;
-        justify-self: stretch;
-    }
-
-    .fieldset-contact, .fieldset-visit {
-        font-size: 3vw;
-    }
-
-    .fieldset-contact {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 1fr);
-    }
-
-    .div-send-clean input, select {
-        font-size: 3vw;
+    .footer-redes p {
+        font-size: 2vw;
     }
 
 }
 
 @media screen and (min-width: 768px) {
-
-    .section-visit, 
-    .section-contact, 
-    .section-aboutus {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+    .footer-redes p {
+        font-size: 1vw;
     }
 
-    .fieldset-contact, .fieldset-visit {
-        font-size: 2vw;
-    }
 }
 
 @media screen and (min-width: 1200px) {
-    
+
     .h1-pages {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
-    .section-visit {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        justify-content: center;
+    .info-visit p {
+        font-size: large;
     }
 
-    .section-visit img {
-        width: 40vw;
-        height: 20vw;
-    }
-
-    .section-contact {
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 2vw;
-        padding: 4vw;
-        margin-bottom: 5vw;
-    }
-
-    .section-contact img {
-        width: 35vw;
-        height: 20vw;
-        margin: 3vw;
-    }
-
-    .section-aboutus {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        grid-gap: 2vw;
-        justify-items: stretch;
-    }
-
-    .section-aboutus div {
-        width: 40vw;
-        height: 30vw;
-    }
-
-    .forms {
-        grid-column: 2;
-        grid-row: 1;
-    }
-
-    .fieldset-contact, .fieldset-visit {
-        width: 30vw;
-        grid-gap: 1rem;
-        font-size: 1.5vw;
-    }
 }
-
-.info-visit {
-    padding-top: 3vw;
-    justify-content: end;
-}
-
-.info-visit p {
-    font-style: italic;
-    text-align: center;
-    font-size: 2vw;
-}
-
-.section-products {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    width: 100%;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-}
-
-.section-contact {
-    display: grid;
-}
-
-.section-aboutus {
-    display: grid;
-}
-
-.product {
-    display: grid;
-    grid-template-rows: 2fr 1fr;
-    padding: 5vw;
-    justify-items: center;
-    margin-bottom: 4vw;
-}
-
-.product img {
-    width: 20vw;
-    height: 20vw;
-}
-
-.forms {
-    padding-top: 2vw;
-}
-
-.fieldset-visit, .fieldset-contact {
-    display: grid;
-}
-
-.fieldset-visit {
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: repeat(6, 1fr);
-    padding-top: 1vw;
-}
-
-.fieldset-contact {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-}
-
-.div-send-clean {
-    display: flex;
-    justify-content: right;
-}
-
-.div-send-clean input, select {
-    font-size: 1vw;
-    padding-inline: 1vw;
-    margin-inline: 0.5vw;
-}
-*/
