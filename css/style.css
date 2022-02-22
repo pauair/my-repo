@@ -110,7 +110,11 @@
 }
 
 .card {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+}
+
+.card-title {
+    font-weight: 700;
 }
 
 .section-products {
@@ -153,6 +157,10 @@
         font-size: 2vw;
     }
 
+    .aboutus-p {
+        font-size: 4vw;
+    }
+
     .footer-redes p {
         font-size: 2vw;
     }
@@ -160,6 +168,11 @@
 }
 
 @media screen and (min-width: 768px) {
+   
+    .aboutus-p {
+        font-size: 1.8vw;
+    }
+
     .footer-redes p {
         font-size: 1vw;
     }
@@ -170,6 +183,10 @@
 
     .h1-pages {
         font-size: 5vw;
+    }
+
+    .aboutus-p {
+        font-size: 1.5vw;
     }
 
     .info-visit p {
