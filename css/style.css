@@ -25,14 +25,12 @@
   align-items: center;
 }
 
-.h1-principal {
+.h1-principal, .h1-pages {
   font-weight: 700;
   font-size: 5vw;
 }
 
 .h1-pages {
-  font-weight: 700;
-  font-size: 5vw;
   text-transform: uppercase;
 }
 
@@ -73,7 +71,7 @@
 }
 
 .nav-item a {
-  font-size: 2.2vw;
+  font-size: 2vw;
   font-weight: 700;
 }
 
