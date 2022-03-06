@@ -59,6 +59,7 @@
 .btn-close {
     margin-bottom: 10%;
     margin-left: 80%;
+    background-color: map-get($mapColors, 2) !important;
 }
 
 .navbar-dark {
@@ -120,6 +121,11 @@
     height: 15rem;
 }
 
+.img-product-pack {
+    width: 10rem;
+    height: 9rem;
+}
+
 .card {
     background-color: map-get($mapColors, 1);
 }
@@ -161,7 +167,19 @@
 @media screen and (min-width: 320px) {
 
     .h1-pages {
-        font-size: 8vw;
+        font-size: 9vw;
+    }
+
+    .btn-close {
+        height: 0.2rem;
+        width: 0.2rem;
+    }
+
+    .nav-item {
+        a {
+            font-size: 4vw;
+            font-weight: 700;
+        }
     }
 
     .info-visit p {
@@ -191,6 +209,11 @@
         font-size: 1.8vw;
     }
 
+    .btn-close {
+        height: 0.7rem;
+        width: 0.7rem;
+    }
+
     .div-map {
         iframe {
             height: 350px;
@@ -208,6 +231,13 @@
 
     .h1-pages {
         font-size: 5vw;
+    }
+
+    .nav-item {
+        a {
+            font-size: 3vw;
+            font-weight: 700;
+        }
     }
 
     .aboutus-p {
